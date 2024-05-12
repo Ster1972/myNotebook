@@ -1,0 +1,20 @@
+
+  const notes = [
+    {id: 1, title: "AllDup", category: "Utility", link: "https://alldup.info/", comment: "AllDup is a freeware tool for searching and removing file duplicates on your Windows computer. The fast search algorithm find duplicates of any file type, e.g., text, pictures, music or movies"},
+    {id: 2, title: "Belarc Advisor", category: "Utility", link: "https://www.belarc.com/products/belarc-advisor", comment: "The Belarc Advisor displays a detailed profile of your installed software, hardware and security vulnerabilities in your Web browser. The Belarc Advisor is licensed for personal use only and is not permitted to be used for any commercial or government purposes. Download link: https://www.belarc.com/products/belarc-advisor/download"},
+    {id: 3, title: "ChatGPT", category: "AI Tool", link: "https://chat.openai.com", comment: "ChatGPT is designed to engage in text-based conversations with users, providing responses that are contextually relevant and coherent."},
+    {id: 4, title: "Ctrl + Alt + T ( Launch Terminal in Linux)", category: "Linux Keyboard shortcut", link: "", comment: "Used to launch a terminal window" },
+    {id: 5, title: "Delete garbage files from Windows", category: "Windows help", link: "https://www.youtube.com/watch?v=U4132uo1oXc&t=9s", comment: "Improve your Windows performance, fix Windows issues, and reclaim hard-drive space back when you follow these steps."},
+    {id: 6, title: "Everything (Search tool)", category: "Windows Utility", link: "https://www.voidtools.com/", comment: "Locate files and folders by name instantly"},
+    {id: 7, title: "Gemini (Google)", category: "AI Tool", link: "https://gemini.google.com/app", comment: "Allows you to access Google AI model. Similar to ChatGPT."},
+    {id: 8, title: "LockHunter", category: "Window Utility", link: "https://lockhunter.com/index.htm", comment: "It is a free tool to delete files blocked by something you do not know. LockHunter is useful for fighting against malware, and other programs that are blocking files without a reason. Unlike other similar tools it deletes files into the recycle bin so you may restore them if deleted by mistake"},
+    {id: 9, title: "Meta AI", category: "AI Tool", link: "https://www.meta.ai", comment: "Meta AI is an intelligent assistant that is capable of complex reasoning, following instructions, visualizing ideas, and solving nuanced problems. Competition to ChatGPT."},
+    {id: 10, title: "Node.js Passport Login System Tutorial", category: "YouTube", link: "https://www.youtube.com/watch?v=-RCnNyD0L-s", comment: "Video on user authentication and login."},
+    {id: 11, title: "Norton Bootable Recovery Tool", category: "Recovery Tool", link: "https://support.norton.com/sp/static/external/tools/nbrt.html", comment: "Allows you to create an USB/DVD bootable antivirus checker. This tool is designed to help you when your computer is in dire state due to infection or other issues."},
+    {id: 12, title: "ToffeeShare (file sharing)", category: "Utility", link: "https://toffeeshare.com ", comment: "Share files directly (peer to peer) from any device. Uses webrtc datachannel to perform large file transfer."},
+    {id: 13, title: "Vaildrive", category: "USB Utility", link: "https://www.grc.com/validrive.htm", comment: "Quickly spot-check any USB-connected mass storage drive for read/write errors and fraud."},
+    {id: 14, title: "WiFi password revealer", category: "Windows Utility", link: "https://www.magicaljellybean.com/wifi-password-revealer/", comment: "WiFi password revealer (finder) is a small freeware utility which will show you all your saved WiFi passwords"},
+    {id: 15, title: "Windows Key + D (Access Desktop)", category: "Windows Keyboard shortcut", link: "", comment: "This shortcut gets the user to the desktop without having to adjust any of the open windows"},
+    {id: 16, title: "Windows Key + H (Voice Dictation)", category: "Windows Keyboard shortcut", link: "", comment: "Shortcut key to open the Microsoft Speech Services which gives you access to voice dictation"}
+    
+  ]
