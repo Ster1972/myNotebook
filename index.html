@@ -122,7 +122,7 @@
         <tr class="align-middle">
           <td>${note.title}</td>
           <td>${note.category}</td>
-          <td><a href="${note.link}" target="_blank" type="button" class="btn btn-primary btn-small"><i class="bi bi-link-45deg"></i></a></td>
+          <td>${note.link ? `<a href="${note.link}" target="_blank" type="button" class="btn btn-primary btn-small"><i class="bi bi-link-45deg"></i></a>` : ''}</td>
           <td><a href="viewrecord.html?id=${note.id}" type="button" class="btn btn-primary btn-small"><i class="bi bi-eye"></i></a></td>
         </tr>
       `;
