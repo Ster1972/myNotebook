@@ -117,5 +117,19 @@ const notes = [
     "link": "",
     "comment": "Allows a user to view or control a remote Windows computer over the network or Internet.",
     "id": "eaaf8e15-543e-416e-b349-c2de5a9d78ab"
+  },
+  {
+    "id": "6ba136e2-7365-4491-9ef3-889bd7a23a14",
+    "title": "Claude",
+    "category": "AI Tool",
+    "link": "https://www.anthropic.com/claude",
+    "comment": "AI Chatbot.  Claude can conversationally answer prompts for anything you need assistance with including coding, math, writing, research and more."
+  },
+  {
+    "title": "Perplexity",
+    "category": "AI Tool",
+    "link": "https://www.perplexity.ai",
+    "comment": "AI Chat bot. Similiar to ChatGPT.",
+    "id": "db4080e7-2b2e-4c5f-bd9a-2a10889d7bc4"
   }
 ]
