@@ -131,5 +131,12 @@ const notes = [
     "link": "https://www.perplexity.ai",
     "comment": "AI Chat bot. Similiar to ChatGPT.",
     "id": "db4080e7-2b2e-4c5f-bd9a-2a10889d7bc4"
+  },
+  {
+    "title": "DuckDuckGo AI Chat",
+    "category": "AI Tool",
+    "link": "https://duckduckgo.com/?q=DuckDuckGo&ia=chat&atb=v429-1",
+    "comment": "Like ChatGPT",
+    "id": "5ba5b0ef-befc-49ee-bf75-d4fd2c957113"
   }
 ]
