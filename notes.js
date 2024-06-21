@@ -138,5 +138,12 @@ const notes = [
     "link": "https://duckduckgo.com/?q=DuckDuckGo&ia=chat&atb=v429-1",
     "comment": "Like ChatGPT",
     "id": "5ba5b0ef-befc-49ee-bf75-d4fd2c957113"
+  },
+  {
+    "title": "VS Code keyboard shortcuts",
+    "category": "VS Code",
+    "link": "",
+    "comment": "Ctrl + Z (undo changes)\r\nCtrl + Y (redo changes)\r\nCtrl + Shift + P (Show Command Palette)",
+    "id": "f1ac2f6e-7c37-4754-a9ce-02991bf57713"
   }
 ]
