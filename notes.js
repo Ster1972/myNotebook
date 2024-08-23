@@ -145,5 +145,152 @@ const notes = [
     "link": "",
     "comment": "Ctrl + Z (undo changes)\r\nCtrl + Y (redo changes)\r\nCtrl + Shift + P (Show Command Palette)",
     "id": "f1ac2f6e-7c37-4754-a9ce-02991bf57713"
+  },
+  {
+    "title": "Adafruit Blog",
+    "category": "Tech News",
+    "link": "https://blog.adafruit.com",
+    "comment": "The Adafruit Blog is a platform where Adafruit Industries shares updates, tutorials, and news related to DIY electronics and maker projects.",
+    "id": "4fa0fdec-1923-4d12-a9f1-568a6dd6803c"
+  },
+  {
+    "title": "AV Interactive",
+    "category": "Tech News",
+    "link": "https://www.avinteractive.com",
+    "comment": "AV Interface is a valuable resource for audiovisual (AV) professionals. It provides AV news and serves as a buyer's guide for pro AV solutions.",
+    "id": "8ca5712c-f495-4cd4-bf5d-142e7a499074"
+  },
+  {
+    "title": "Commercial Integrator",
+    "category": "Tech News",
+    "link": "https://www.commercialintegrator.com",
+    "comment": "Commercial Integrator is a publication dedicated to the business needs of professional integrators who serve the small and midsize business (SMB) market.",
+    "id": "3c9b6cc8-af14-4917-a2af-b96dd2a94c48"
+  },
+  {
+    "id": "189fd87d-d2af-4b11-a77d-e725398b9761",
+    "title": "Computer Weekly",
+    "category": "Tech News",
+    "link": "https://www.computerweekly.com",
+    "comment": "Computer Weekly is a comprehensive source for the latest information technology (IT) news, analysis, and jobs.  It covers a wide range of topics including IT management, technology trends, cyber-security, and more."
+  },
+  {
+    "title": "Digital AV Magazine",
+    "category": "Tech News",
+    "link": "https://www.digitalavmagzine.com/en/",
+    "comment": "Digital AV Magazine is a professional portal that provides information on the latest technologies and trends in audio and video professional environments.",
+    "id": "23202d36-ed2d-48b2-9586-74342d03f55e"
+  },
+  {
+    "title": "GoAndroid",
+    "category": "Tech News",
+    "link": "htps://www.thegoandroid.com",
+    "comment": "GoAndroid is a website that covers Android-related news, updates and gossip.",
+    "id": "a3a46b51-8f11-403a-aebd-36c6aaa1fa42"
+  },
+  {
+    "title": "IT World Canada",
+    "category": "Tech News",
+    "link": "https://www.itworldcanada.com",
+    "comment": "IT World Canada is a leading online resource for IT professionals in Canada.",
+    "id": "c58ae225-99a8-4fd8-bf6c-dcc431f1a52e"
+  },
+  {
+    "title": "ITPro Today",
+    "category": "Tech News",
+    "link": "https://www.itprotoday.com",
+    "comment": "ITPro Today is a valuable resource for IT professionals. It provides daily news, analysis, opinions, and how-to's related to the information technology industry. It also has information on IT security.",
+    "id": "d6d15029-8c97-4f45-9aa8-26b1a324e442"
+  },
+  {
+    "title": "Linux Magazine",
+    "category": "Tech News",
+    "link": "https://www.linux-magazine.com",
+    "comment": "",
+    "id": "a28878c1-fac3-4fbd-8f0a-5c826d449fbb"
+  },
+  {
+    "title": "Network Computing",
+    "category": "Tech News",
+    "link": "https://www.networkcomputing.com",
+    "comment": "Network Computing is a website that provides IT professionals with news, analysis, and insights on various topics related to networking and IT infrastructure.",
+    "id": "81a07b54-e06a-4dce-816b-8648b73c58fc"
+  },
+  {
+    "title": "PC Magazine",
+    "category": "Tech News",
+    "link": "https://www.pcmag.com",
+    "comment": "PCMag is a well-known technology publication that provides comprehensive reviews, news, tips and deals on a wide range of tech products and services.",
+    "id": "cd660c16-faf7-427d-ab73-23e8d91a6aad"
+  },
+  {
+    "title": "PC World",
+    "category": "Tech News",
+    "link": "https://www.pcworld.com",
+    "comment": "PC World is an online publication that focuses on various aspects of personal technology such as mainstream PC hardware components, software and utilties.",
+    "id": "48519a0f-ea6b-4054-b280-d62be64be62b"
+  },
+  {
+    "title": "rAVe PUBS",
+    "category": "Tech News",
+    "link": "https://www.ravepubs.com",
+    "comment": "rAVe PUBS is a news organization that focuses on the audiovisual (AV) industry. They cover a wide range of topics related to both commerical (ProAV) and residential (HomeAV) audiovisual markets.",
+    "id": "7f05a9fd-0e57-4995-9306-f89d1b21f262"
+  },
+  {
+    "title": "TechPowerUP",
+    "category": "Tech News",
+    "link": "https://www.techpowerup.com",
+    "comment": "TechPowerUp is a website that covers the latest news, reviews, and opinions on hardware and gaming topics.",
+    "id": "023a47b6-e216-49c6-9a4a-33508df4b351"
+  },
+  {
+    "title": "techradar",
+    "category": "Tech News",
+    "link": "https://www.techradar.com",
+    "comment": "TechRadar is a website that provides the latest technology news, reviews and features.",
+    "id": "b61e2a41-943f-46f3-a77d-412344878537"
+  },
+  {
+    "title": "The New Stack",
+    "category": "Tech News",
+    "link": "https://thenewstack.io",
+    "comment": "The New Stack is a media platform that provides context and explanation of at-scale technologies. It covers modern architectures, components of the software development life cycle, and operations tools and culture.",
+    "id": "4208ef9a-7284-4e54-80e9-ae4a443f01dc"
+  },
+  {
+    "title": "TheWindowClub",
+    "category": "Tech News",
+    "link": "https://news.thewindowsclub.com",
+    "comment": "TheWindowsClub News is a website that covers a wide range of technology news and developments, with a particular focus on Microsoft Windows software and services, as well as the Internet in general.",
+    "id": "444d3ed5-940d-4f21-8ce6-d20686f6a0e0"
+  },
+  {
+    "title": "UbuntuPit",
+    "category": "Tech News",
+    "link": "https://www.ubuntupit.com",
+    "comment": "UbuntuPit is a leading technology blog focused on Ubuntu Linux and other open-source software. It offers a wide range of content, including news, tutorials, reviews and guides.",
+    "id": "b320780e-fc8e-48dc-8b8d-67074124a3c8"
+  },
+  {
+    "title": "Wonder How To",
+    "category": "Tech News",
+    "link": "https://null-byte.wonderhowto.com",
+    "comment": "WonderHowTo is a comprehensive platform that offers a wide range of how-to videos and tutorials across various topics. This site is organized into niche communities called \"Worlds\".  These include WonderHowTo, Gadgets Hacks, Next Reality and Null Byte.",
+    "id": "848beae8-2b9b-4995-90f6-e5d823bc28ee"
+  },
+  {
+    "title": "XDA Developers",
+    "category": "Tech News",
+    "link": "https://www.xda-developers.com",
+    "comment": "XDA Developers is a tech site that covers a wide range of topics related to computing. ",
+    "id": "4c5eb497-9f83-4577-9482-a4b6f56333a6"
+  },
+  {
+    "title": "ZDNET",
+    "category": "Tech News",
+    "link": "https://www.zdnet.com",
+    "comment": "ZDNET is a technology news website that provides the latest updates, reviews and advice on various tech innovations and products which include software, hardware, cyber-security and emerging technologies.",
+    "id": "c2cbb15a-fb85-4ac7-9006-cd9f20d56da2"
   }
 ]
