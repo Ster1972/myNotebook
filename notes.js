@@ -177,14 +177,14 @@ const notes = [
   {
     "title": "Digital AV Magazine",
     "category": "Tech News",
-    "link": "https://www.digitalavmagzine.com/en/",
+    "link": "https://www.digitalavmagazine.com/en/",
     "comment": "Digital AV Magazine is a professional portal that provides information on the latest technologies and trends in audio and video professional environments.",
     "id": "23202d36-ed2d-48b2-9586-74342d03f55e"
   },
   {
     "title": "GoAndroid",
     "category": "Tech News",
-    "link": "htps://www.thegoandroid.com",
+    "link": "https://www.thegoandroid.com",
     "comment": "GoAndroid is a website that covers Android-related news, updates and gossip.",
     "id": "a3a46b51-8f11-403a-aebd-36c6aaa1fa42"
   },
