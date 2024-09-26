@@ -21,11 +21,11 @@ const notes = [
     "id": "150617b8-fcb7-4594-a5bc-d0212513dee1"
   },
   {
-    "title": "Ctrl + Alt + T ( Launch Terminal in Linux)",
+    "id": "05b8bbe9-4623-4e5a-8c52-e8ce8b838b5d",
+    "title": "Ctrl + Alt + T",
     "category": "Linux Keyboard shortcut",
     "link": "",
-    "comment": "Used to launch a terminal window",
-    "id": "05b8bbe9-4623-4e5a-8c52-e8ce8b838b5d"
+    "comment": "Used to launch a terminal window in Linux OS"
   },
   {
     "title": "Delete garbage files from Windows",
@@ -98,25 +98,25 @@ const notes = [
     "id": "6476d735-6985-4511-babc-01f8da39cda3"
   },
   {
-    "title": "Windows Key + D (Access Desktop)",
+    "id": "458385b8-a9b6-4130-a6eb-a5edb42d9595",
+    "title": "Windows Key + D ",
     "category": " Windows Keyboard shortcut",
     "link": "",
-    "comment": "This shortcut gets the user to the desktop without having to adjust any of the open windows",
-    "id": "458385b8-a9b6-4130-a6eb-a5edb42d9595"
+    "comment": "This shortcut gets the user to the desktop without having to adjust any of the open windows"
   },
   {
-    "title": "Windows Key + H (Voice Dictation)",
+    "id": "fff55e70-7d74-4e9f-baae-cfe8cbcdc3c9",
+    "title": "Windows Key + H",
     "category": "Windows Keyboard shortcut",
     "link": "",
-    "comment": "Shortcut key to open the Microsoft Speech Services which gives you access to voice dictation",
-    "id": "fff55e70-7d74-4e9f-baae-cfe8cbcdc3c9"
+    "comment": "Shortcut key to open the Microsoft Speech Services which gives you access to voice dictation"
   },
   {
-    "title": "Ctrl + Windows Key + Q (Windows Quick Assist)",
+    "id": "eaaf8e15-543e-416e-b349-c2de5a9d78ab",
+    "title": "Ctrl + Windows Key + Q ",
     "category": "Windows Keyboard shortcut",
     "link": "",
-    "comment": "Allows a user to view or control a remote Windows computer over the network or Internet.",
-    "id": "eaaf8e15-543e-416e-b349-c2de5a9d78ab"
+    "comment": "Windows Quick Assist -  Allows a user to view or control a remote Windows computer over the network or Internet."
   },
   {
     "id": "6ba136e2-7365-4491-9ef3-889bd7a23a14",
