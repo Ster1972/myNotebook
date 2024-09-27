@@ -565,5 +565,12 @@ const notes = [
     "link": "",
     "comment": "Open a new private or incognito window (works in most browsers)",
     "id": "878f40d6-7e25-4d5c-9def-fe55d7636380"
+  },
+  {
+    "title": "Google Passkey",
+    "category": "Security",
+    "link": "https://www.google.com/account/about/passkeys/",
+    "comment": "Passkey are a more secure alternative to passwords. They let you sign in with your fingerprint, face scan or screen lock.",
+    "id": "9b75e568-383a-4d6e-b396-f17d6d4f4c67"
   }
 ]
