@@ -26,7 +26,7 @@
           return notes.filter(note => {
             // Customize this logic based on your data structure
             return note.title.toLowerCase().includes(term.toLowerCase()) || 
-             note.category.toLowerCase().includes(term.toLowerCase());
+             note.category.toLowerCase().includes(term.toLowerCase())  || note.comment.toLowerCase().includes(term.toLowerCase());
             });
          }
          const searchResults = filterNotes(notes, searchData);
