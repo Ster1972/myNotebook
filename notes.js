@@ -596,7 +596,7 @@ const notes = [
   },
   {
     "title": "Quanta Magazine",
-    "category": "Magazine",
+    "category": "Tech News",
     "link": "https://www.quantamagazine.org/",
     "comment": "Science and Math News",
     "id": "77509ad0-9bb1-40e3-a7f7-213253f79981"
