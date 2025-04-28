@@ -42,11 +42,11 @@ const notes = [
     "id": "24c8d52c-cc4d-46d4-b185-09a95bb6bd73"
   },
   {
+    "id": "e443f304-c50c-4fa5-97d2-c4a1a1a1f1b7",
     "title": "Gemini (Google)",
     "category": "AI Tool",
     "link": "https://gemini.google.com/app",
-    "comment": "Allows you to access Google AI model. Similar to ChatGPT.",
-    "id": "e443f304-c50c-4fa5-97d2-c4a1a1a1f1b7"
+    "comment": "This is a suite of generative AI models and tools developed by Google, with significant contributions from DeepMind. Gemini models are multimodal, meaning they can process and generate text, images, and other data types. They are designed for practical applications, such as powering AI apps, assisting with tasks, and integrating into Google's services like Gmail and Google Docs"
   },
   {
     "title": "LockHunter",
@@ -600,5 +600,33 @@ const notes = [
     "link": "https://www.quantamagazine.org/",
     "comment": "Science and Math News",
     "id": "77509ad0-9bb1-40e3-a7f7-213253f79981"
+  },
+  {
+    "title": "Grok",
+    "category": "AI Tool",
+    "link": "https://grok.com",
+    "comment": "\"Grok.com\" is associated with xAI, an AI company founded by Elon Musk. It offers advanced AI tools, including Grok 3, which specializes in reasoning, coding, and problem-solving. Grok.com provides access to these tools, allowing users to explore AI capabilities for tasks like document summarization, coding assistance, and real-time data analysis",
+    "id": "92783077-4443-4424-aa0d-3afdbff06062"
+  },
+  {
+    "title": "Google DeepMind",
+    "category": "AI Tool",
+    "link": "https://deepmind.google",
+    "comment": "This is Google's advanced AI research lab, originally founded as \"DeepMind\" before being acquired by Google. It focuses on cutting-edge AI research and development, including breakthroughs in reinforcement learning, neural networks, and applications like AlphaGo and AlphaFold.",
+    "id": "f096e661-966c-4ab9-8801-72873ec7ab9e"
+  },
+  {
+    "title": "NotebookLM",
+    "category": "AI Tool",
+    "link": "https://notebooklm.google.com",
+    "comment": "It’s designed to act as a virtual collaborator, making it easier to synthesize complex information and refine ideas. NotebookLM also offers features like audio overviews, where users can listen to summaries of their research. It helps users organize, summarize, and interact with their information more effectively. By uploading documents, notes, or web content, NotebookLM can analyze the material, extract key details, and create summaries, timelines, FAQs, study guides, and even mind maps.",
+    "id": "e5ef5073-0b23-4864-9745-c2d42b591e65"
+  },
+  {
+    "title": "Chef",
+    "category": "AI Tool",
+    "link": "https://chef.convex.dev",
+    "comment": "Chef by Convex is an AI-powered tool designed to help developers create full-stack, real-time web applications with ease. It leverages Convex's backend capabilities to handle complex tasks like database management, authentication, file uploads, and real-time user interfaces. Chef is particularly adept at building applications such as multiplayer games, social platforms, and AI-powered tools.\r\n\r\nWhat sets Chef apart is its focus on backend engineering, using Convex's APIs to simplify challenges like concurrency, consistency, and caching. It also offers features like instant hosting, project sharing, and built-in dashboards for seamless app development.",
+    "id": "76f14a3a-dba6-43da-aac4-35c00f4cbe33"
   }
 ]
