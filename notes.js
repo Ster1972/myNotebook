@@ -628,5 +628,33 @@ const notes = [
     "link": "https://chef.convex.dev",
     "comment": "Chef by Convex is an AI-powered tool designed to help developers create full-stack, real-time web applications with ease. It leverages Convex's backend capabilities to handle complex tasks like database management, authentication, file uploads, and real-time user interfaces. Chef is particularly adept at building applications such as multiplayer games, social platforms, and AI-powered tools.\r\n\r\nWhat sets Chef apart is its focus on backend engineering, using Convex's APIs to simplify challenges like concurrency, consistency, and caching. It also offers features like instant hosting, project sharing, and built-in dashboards for seamless app development.",
     "id": "76f14a3a-dba6-43da-aac4-35c00f4cbe33"
+  },
+  {
+    "title": "Deepsite AI",
+    "category": "AI Tool",
+    "link": "https://enzostvs-deepsite.hf.space",
+    "comment": "DeepSite AI is an AI-powered website generator that allows users to create professional websites without coding. It uses DeepSeek V3 technology to generate responsive designs, optimize SEO, and provide real-time previews1. DeepSite AI supports various website types, including business sites, blogs, e-commerce platforms, portfolios, and landing pages.",
+    "id": "53d73ae1-aa9d-4c30-9c5f-27ef53c52508"
+  },
+  {
+    "title": "Hugging Face Ai",
+    "category": "AI Tool",
+    "link": "https://huggingface.co",
+    "comment": "Hugging Face is an open-source platform that provides tools for building, sharing, and collaborating on machine learning models",
+    "id": "1af0d8b2-7770-4e85-9465-371ee56c2ee8"
+  },
+  {
+    "title": "V0 Dev",
+    "category": "AI Tool",
+    "link": "https://v0.dev",
+    "comment": "V0.dev is a platform by Vercel that allows users to generate UI components, code, and entire projects using AI-powered prompts. It supports frameworks like React, Vue, Svelte, and HTML with CSS, making it a useful tool for developers looking to streamline their workflow.\r\n\r\nIt also offers Blocks, which are unique content types that unlock new functionality, such as UI generation and code execution",
+    "id": "eae50960-3225-49d6-9ff9-3727641fe6e0"
+  },
+  {
+    "title": "Firebase Studio",
+    "category": "AI Tool",
+    "link": "https://firebase.studio/",
+    "comment": "Firebase Studio is a full-stack AI workspace that helps developers build, test, and deploy applications efficiently. It integrates AI-powered tools like Gemini in Firebase, allowing users to code, debug, and optimize their projects with AI assistance.",
+    "id": "cc1cf701-611b-43b0-90b9-40a7332b39aa"
   }
 ]
