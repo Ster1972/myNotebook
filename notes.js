@@ -14,11 +14,11 @@ const notes = [
     "id": "04325048-1952-4447-b219-95139c1a131e"
   },
   {
+    "id": "150617b8-fcb7-4594-a5bc-d0212513dee1",
     "title": "ChatGPT",
     "category": "AI Tool",
     "link": "https://chat.openai.com",
-    "comment": "ChatGPT is designed to engage in text-based conversations with users, providing responses that are contextually relevant and coherent.",
-    "id": "150617b8-fcb7-4594-a5bc-d0212513dee1"
+    "comment": "ChatGPT is designed to engage in text-based conversations with users, providing responses that are contextually relevant and coherent. It also contains other tools such as \"Canvas\" which helps you write code."
   },
   {
     "id": "05b8bbe9-4623-4e5a-8c52-e8ce8b838b5d",
@@ -656,5 +656,33 @@ const notes = [
     "link": "https://firebase.studio/",
     "comment": "Firebase Studio is a full-stack AI workspace that helps developers build, test, and deploy applications efficiently. It integrates AI-powered tools like Gemini in Firebase, allowing users to code, debug, and optimize their projects with AI assistance.",
     "id": "cc1cf701-611b-43b0-90b9-40a7332b39aa"
+  },
+  {
+    "title": "Claude",
+    "category": "AI Tool",
+    "link": "https://claude.ai",
+    "comment": "Claude is an AI assistant developed by Anthropic. It's designed to be safe, accurate, and secure, helping users with tasks like drafting content, generating code, analyzing text and images, and more.",
+    "id": "909348b9-4684-4eed-a75b-dafff045918b"
+  },
+  {
+    "title": "YouLearn",
+    "category": "AI Tool",
+    "link": "https://app.youlearn.ai",
+    "comment": "YouLearn is an AI-powered learning assistant designed to help students understand their lecture materials more effectively. It allows users to upload content like YouTube videos, PDFs, slides, and recorded lectures, then interact with an AI tutor that provides summaries, key takeaways, quizzes, and personalized exams2.\r\n\r\nIt’s built to make studying more efficient by offering features like flashcards, voice mode, and answer breakdown",
+    "id": "c08192b0-660a-4902-b480-2812a34040df"
+  },
+  {
+    "title": "GenSpark",
+    "category": "AI Tool",
+    "link": "https://www.genspark.ai",
+    "comment": "Genspark is an AI-powered search and research engine designed to assist users with various tasks, from analyzing data to planning travel and generating reports. It features specialized AI agents that perform deep research and create custom pages called Sparkpages, which synthesize trustworthy information without SEO-driven biases2. Users can interact with AI agents to receive summaries, break down complex text, and explore different types of searches, including travel, product, and image searches.",
+    "id": "10a5ef88-c893-47a5-b691-d12f07107703"
+  },
+  {
+    "title": "Notion",
+    "category": "AI Tool",
+    "link": "https://www.notion.com",
+    "comment": "Notion is an all-in-one workspace designed for wikis, docs, projects, and collaboration. It combines note-taking, project management, and knowledge sharing into a single platform, making it a powerful tool for individuals and teams.\r\n\r\nWith Notion, you can:\r\n\r\nCreate and organize documents with AI-assisted editing. \r\nManage projects and tasks using custom views like calendars and boards.\r\nCollaborate with teams through shared spaces and integrations.\r\nUse AI-powered search to find information across your workspace.\r\n\r\nIt’s widely used by businesses, students, and creatives to streamline workflows and keep everything in one place. You can explore more about Notion",
+    "id": "3ca70c52-19ad-40f0-8c39-e9ddae3bee7f"
   }
 ]
