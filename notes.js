@@ -684,5 +684,26 @@ const notes = [
     "link": "https://www.notion.com",
     "comment": "Notion is an all-in-one workspace designed for wikis, docs, projects, and collaboration. It combines note-taking, project management, and knowledge sharing into a single platform, making it a powerful tool for individuals and teams.\r\n\r\nWith Notion, you can:\r\n\r\nCreate and organize documents with AI-assisted editing. \r\nManage projects and tasks using custom views like calendars and boards.\r\nCollaborate with teams through shared spaces and integrations.\r\nUse AI-powered search to find information across your workspace.\r\n\r\nIt’s widely used by businesses, students, and creatives to streamline workflows and keep everything in one place. You can explore more about Notion",
     "id": "3ca70c52-19ad-40f0-8c39-e9ddae3bee7f"
+  },
+  {
+    "title": "Windows Key + Shift Key + R",
+    "category": "Windows Keyboard shortcut",
+    "link": "",
+    "comment": "Starts the Snipping Tool video record feature. Also can be reached via the Snipping Menu.",
+    "id": "3334e9c7-3c09-46af-9678-3318a223c96c"
+  },
+  {
+    "title": "Claude Code",
+    "category": "Coding",
+    "link": "https://www.anthropic.com/claude-code",
+    "comment": "Claude Code is an agentic coding tool developed by Anthropic that integrates directly into a developer's terminal. It allows users to edit files, fix bugs, execute tests, and manage repositories.",
+    "id": "b8b83a24-5668-4804-b35d-1d9f26125290"
+  },
+  {
+    "title": "Vectal AI",
+    "category": "Coding",
+    "link": "https://www.vectal.ai/login",
+    "comment": "Vectal.ai is an AI-powered productivity app that leverages cutting-edge models like o3 to help users work more efficiently. It offers AI agents designed to streamline workflows and enhance productivity",
+    "id": "cdbdfeee-665a-41a2-8801-33cd05a2500d"
   }
 ]
