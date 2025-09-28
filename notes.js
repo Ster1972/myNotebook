@@ -709,7 +709,7 @@ const notes = [
   {
     "title": "It's Foss News",
     "category": "Tech News",
-    "link": "https://news.itsfosss.com",
+    "link": "https://news.itsfoss.com",
     "comment": "Provides the latest Linux distributions: announcements, beta releases, and updates for distros like Ubuntu, Fedora, Debian, Zorin OS, etc",
     "id": "bb5f6baf-c93a-4395-b556-d38a9d5f6a5e"
   }
