@@ -705,5 +705,12 @@ const notes = [
     "link": "https://www.vectal.ai/login",
     "comment": "Vectal.ai is an AI-powered productivity app that leverages cutting-edge models like o3 to help users work more efficiently. It offers AI agents designed to streamline workflows and enhance productivity",
     "id": "cdbdfeee-665a-41a2-8801-33cd05a2500d"
+  },
+  {
+    "title": "It's Foss News",
+    "category": "Tech News",
+    "link": "https://news.itsfosss.com",
+    "comment": "Provides the latest Linux distributions: announcements, beta releases, and updates for distros like Ubuntu, Fedora, Debian, Zorin OS, etc",
+    "id": "bb5f6baf-c93a-4395-b556-d38a9d5f6a5e"
   }
 ]
