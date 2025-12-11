@@ -712,5 +712,12 @@ const notes = [
     "link": "https://news.itsfoss.com",
     "comment": "Provides the latest Linux distributions: announcements, beta releases, and updates for distros like Ubuntu, Fedora, Debian, Zorin OS, etc",
     "id": "bb5f6baf-c93a-4395-b556-d38a9d5f6a5e"
+  },
+  {
+    "title": "Gistr",
+    "category": "AI Tool",
+    "link": "https://gistr.so/",
+    "comment": "Gistr is an AI-native notebook that helps you think, learn, and organize knowledge you discover online.",
+    "id": "f00ca1cf-544e-40df-8227-7dbb9bccfb34"
   }
 ]
