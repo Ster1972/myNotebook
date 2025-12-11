@@ -720,4 +720,5 @@ const notes = [
     "comment": "Gistr is an AI-native notebook that helps you think, learn, and organize knowledge you discover online.",
     "id": "f00ca1cf-544e-40df-8227-7dbb9bccfb34"
   }
+  
 ]
