@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
   {% include header.html %}
-   <title>{{ page.title }}</title>
+  <title>{{ page.title }} | myNotes</title>
 </head>
 <body>
-  {{ content }}
+  {% include navbar.html %}
+
+  <div class="container-fluid">
+    <div class="row">
+      {% include sidebar.html %}
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        {{ content }}
+      </main>
+    </div>
+  </div>
+
   {% include footer.html %}
 </body>
 </html>

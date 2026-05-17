@@ -1,0 +1,78 @@
+<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+    <div class="position-sticky pt-3 sidebar-sticky">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/index.html' or page.url == '/' %}active{% endif %}" aria-current="page" href="index.html">
+            <i class="bi bi-house"></i>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'myapps.html' %}active{% endif %}" href="myapps.html">
+            <i class="bi bi-joystick"></i>
+            myApps
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'mysearchEngines.html' %}active{% endif %}" href="mysearchEngines.html">
+            <i class="bi bi-search"></i>
+            Search Engines
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'mybrowers.html' %}active{% endif %}" href="mybrowers.html">
+            <i class="bi bi-globe"></i>
+            Web Browsers
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'myota.html' %}active{% endif %}" href="myota.html">
+            <i class="bi bi-airplane"></i>
+            Travel Sites
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'cybersecurity.html' %}active{% endif %}" href="cybersecurity.html">
+            <i class="bi bi-lock"></i>
+            IT Security
+          </a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link {% if page.url contains 'mytechnews.html' %}active{% endif %}" href="mytechnews.html">
+           <i class="bi bi-newspaper"></i>
+           Technology News
+         </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'vscode.html' %}active{% endif %}" href="vscode.html">
+            <i class="bi bi-code-slash"></i>
+            VS Code
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'javascript.html' %}active{% endif %}" href="javascript.html">
+            <i class="bi bi-file-code"></i>
+            Javascript Info
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'keyboardshortcuts.html' %}active{% endif %}" href="keyboardshortcuts.html">
+            <i class="bi bi-keyboard"></i>
+            Keyboard Shortcuts
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'aiinfo.html' %}active{% endif %}" href="aiinfo.html">
+            <i class="bi bi-robot"></i>
+            AI Info
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.url contains 'about.html' %}active{% endif %}" href="about.html">
+            <i class="bi bi-patch-question"></i>
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>

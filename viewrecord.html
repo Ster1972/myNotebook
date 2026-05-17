@@ -2,105 +2,62 @@
 layout: default
 title: Record Details
 ---
-    <script>
-        // Function to get the record ID from the URL
-        function getRecordIdFromURL() {
-            const queryString = window.location.search;
-            const urlParams = new URLSearchParams(queryString);
-            return urlParams.get('id');
-        }
 
-        // Get the record ID from the URL
-        const recordId = getRecordIdFromURL();
+<br>
+<h1 class="h2">Record Details:</h1>
+<hr>
+<div id="recordContainer">
+    <!-- Record details will be displayed here -->
+</div>
 
-    </script>
-    <script src="notes.js"></script>
+<script>
+    function getRecordIdFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('id');
+    }
 
-    <header class="navbar navbar-dark sticky-top bg-primary flex-md-nowrap p-0 shadow">
+    const recordId = getRecordIdFromURL();
+    const record = notes.find(note => note.id == recordId);
+    const container = document.getElementById('recordContainer');
 
-        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="index.html">myNotes</a>
+    function renderRecord(rec) {
+        if (!rec) return `
+            <div class="alert alert-warning" role="alert">
+                Record not found. <a href="index.html" class="alert-link">Return to Dashboard</a>.
+            </div>
+        `;
 
-        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        return `
+            <ul class="list-group">
+                <li class="list-group-item"> 
+                    <div class="row">
+                        <div class="col" style="max-width: 140px"> <b>Title:</b></div>
+                        <div class="col">${escapeHTML(rec.title)}</div>
+                    </div>
+                </li>
+                <li class="list-group-item"> 
+                    <div class="row">
+                        <div class="col" style="max-width: 140px"> <b>Category:</b></div>
+                        <div class="col">${escapeHTML(rec.category)}</div>
+                    </div>
+                </li>
+                <li class="list-group-item"> 
+                    <div class="row">
+                        <div class="col" style="max-width: 140px"> <b>URL:</b></div>
+                        <div class="col"><a href="${encodeURI(rec.link)}" target="_blank" rel="noopener noreferrer">${escapeHTML(rec.link)}</a></div>
+                    </div>
+                </li>
+                <li class="list-group-item"> 
+                    <div class="row">
+                        <div class="col" style="max-width: 140px"> <b>Comments:</b></div>
+                        <div class="col">${escapeHTML(rec.comment)}</div>
+                    </div>
+                </li>
+            </ul>
+        `;
+    }
 
-    </header>
-
-
-    <div class="container-fluid">
-        <div class="row">
-
-            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-                <div class="position-sticky pt-3 sidebar-sticky">
-                    <ul class="nav flex-column">
-
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">
-                                <i class="bi bi-house"></i>
-                                Dashboard
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">
-                                <i class="bi bi-patch-question"></i>
-                                About
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </nav>
-
-            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <br>
-                <h1 class="h2">Record Details:</h1>
-                <hr>
-                <div>
-                    <!-- Record details will be displayed here -->
-                    <script>
-                        const record = notes.find(note => note.id == recordId);
-                        document.write(`
-                            <ul class="list-group">
-                            
-                            <li class="list-group-item"> 
-                            <div class="row">
-                                <div class="col" style="max-width: 140px"> <b>Title:</b></div>
-                                <div class="col">${record.title}</div>
-                            </div>
-                            </li>
-                        
-                            <li class="list-group-item"> 
-                            <div class="row">
-                                <div class="col" style="max-width: 140px"> <b>Category:</b></div>
-                                <div class="col">${record.category}</div>
-                            </div>
-                            </li>
-                        
-                            <li class="list-group-item"> 
-                            <div class="row">
-                                <div class="col" style="max-width: 140px"> <b>URL:</b></div>
-                                <div class="col"><a href="${record.link}" target="_blank">${record.link} </a> </div>
-                            </div>
-                            </li>
-                        
-                            <li class="list-group-item"> 
-                            <div class="row">
-                                <div class="col" style="max-width: 140px"> <b>Comments:</b></div>
-                                <div class="col">${record.comment}</div>
-                            </div>
-                            </li>
-                        </ul>
-                    `);
-                    </script>
-                </div>
-
-
-            </main>
-
-        </div>
-    </div>
-  
-
+    document.addEventListener('DOMContentLoaded', () => {
+        container.innerHTML = renderRecord(record);
+    });
+</script>
