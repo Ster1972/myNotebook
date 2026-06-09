@@ -25,14 +25,8 @@ title: Tech News
 </nav>
 
 <script>
-  // Filter for Tech News category and sort alphabetically
   const category = "Tech News";
-  const newsResults = notes
-    .filter(note => note.category.toLowerCase().includes(category.toLowerCase()))
-    .sort((a, b) => a.title.localeCompare(b.title));
-
   const notesPerPage = 16;
-  let currentPage = 1;
 
   function renderNews(paginatedSubset) {
     return paginatedSubset.map(note => `
@@ -45,13 +39,13 @@ title: Tech News
     `).join('');
   }
 
-  function updateDisplay(page) {
-    currentPage = page;
-    paginate(newsResults, currentPage, notesPerPage, renderNews, 'notesBody');
-    setupPaginationUI(newsResults.length, notesPerPage, currentPage, 'pagination', updateDisplay);
+  function buildAndInitNews() {
+    const newsResults = (Array.isArray(window.notes) ? window.notes : [])
+      .filter(note => note.category && note.category.toLowerCase().includes(category.toLowerCase()))
+      .sort((a, b) => a.title.localeCompare(b.title));
+
+    initListPage(newsResults, notesPerPage, 'notesBody', 'pagination', renderNews);
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    updateDisplay(1);
-  });
+  loadNotes('notes.json').then(buildAndInitNews).catch(err => console.error('Failed to load notes.json', err));
 </script>

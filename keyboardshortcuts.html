@@ -26,12 +26,7 @@ title: Keyboard Shortcuts
 
 <script>
   const category = "Keyboard shortcut";
-  const shortcutResults = notes.filter(note => 
-    note.category.toLowerCase().includes(category.toLowerCase())
-  );
-
   const notesPerPage = 16;
-  let currentPage = 1;
 
   function renderShortcuts(paginatedSubset) {
     return paginatedSubset.map(note => `
@@ -42,13 +37,12 @@ title: Keyboard Shortcuts
     `).join('');
   }
 
-  function updateDisplay(page) {
-    currentPage = page;
-    paginate(shortcutResults, currentPage, notesPerPage, renderShortcuts, 'notesBody');
-    setupPaginationUI(shortcutResults.length, notesPerPage, currentPage, 'pagination', updateDisplay);
+  function buildAndInitShortcuts() {
+    const shortcutResults = (Array.isArray(window.notes) ? window.notes : []).filter(note =>
+      note.category && note.category.toLowerCase().includes(category.toLowerCase())
+    );
+    initListPage(shortcutResults, notesPerPage, 'notesBody', 'pagination', renderShortcuts);
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    updateDisplay(1);
-  });
+  loadNotes('notes.json').then(buildAndInitShortcuts).catch(err => console.error('Failed to load notes.json', err));
 </script>

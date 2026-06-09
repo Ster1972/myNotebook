@@ -27,37 +27,9 @@ title: Dashboard
 </nav>
 
 <script>
-  // Page-specific configuration
+  // Load notes.json and initialize list rendering
   const notesPerPage = 12;
-  let currentPage = 1;
-
-  /**
-   * Page-specific render function for the table rows.
-   */
-  function renderNotes(paginatedSubset) {
-    return paginatedSubset.map(note => `
-      <tr class="align-middle">
-        <td>${escapeHTML(note.title)}</td>
-        <td>${escapeHTML(note.category)}</td>
-        <td>${note.link ? `<a href="${encodeURI(note.link)}" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-primary btn-small"><i class="bi bi-link-45deg"></i></a>` : ''}</td>
-        <td><a href="viewrecord.html?id=${encodeURIComponent(note.id)}" type="button" class="btn btn-primary btn-small"><i class="bi bi-eye"></i></a></td>
-      </tr>
-    `).join('');
-  }
-
-  /**
-   * Main display update function called on page change.
-   */
-  function updateDisplay(page) {
-    currentPage = page;
-    // Uses shared logic from app.js
-    paginate(notes, currentPage, notesPerPage, renderNotes, 'notesBody');
-    setupPaginationUI(notes.length, notesPerPage, currentPage, 'pagination', updateDisplay);
-  }
-
-  // Kick off initial display
-  // We use DOMContentLoaded to ensure the elements are ready even if app.js is in head
-  document.addEventListener('DOMContentLoaded', () => {
-    updateDisplay(1);
-  });
+  loadNotes('notes.json')
+    .then(() => initListPage(window.notes, notesPerPage, 'notesBody', 'pagination'))
+    .catch(err => console.error('Failed to load notes.json', err));
 </script>

@@ -11,53 +11,12 @@ title: Record Details
 </div>
 
 <script>
-    function getRecordIdFromURL() {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('id');
-    }
-
-    const recordId = getRecordIdFromURL();
-    const record = notes.find(note => note.id == recordId);
-    const container = document.getElementById('recordContainer');
-
-    function renderRecord(rec) {
-        if (!rec) return `
-            <div class="alert alert-warning" role="alert">
-                Record not found. <a href="index.html" class="alert-link">Return to Dashboard</a>.
-            </div>
-        `;
-
-        return `
-            <ul class="list-group">
-                <li class="list-group-item"> 
-                    <div class="row">
-                        <div class="col" style="max-width: 140px"> <b>Title:</b></div>
-                        <div class="col">${escapeHTML(rec.title)}</div>
-                    </div>
-                </li>
-                <li class="list-group-item"> 
-                    <div class="row">
-                        <div class="col" style="max-width: 140px"> <b>Category:</b></div>
-                        <div class="col">${escapeHTML(rec.category)}</div>
-                    </div>
-                </li>
-                <li class="list-group-item"> 
-                    <div class="row">
-                        <div class="col" style="max-width: 140px"> <b>URL:</b></div>
-                        <div class="col"><a href="${encodeURI(rec.link)}" target="_blank" rel="noopener noreferrer">${escapeHTML(rec.link)}</a></div>
-                    </div>
-                </li>
-                <li class="list-group-item"> 
-                    <div class="row">
-                        <div class="col" style="max-width: 140px"> <b>Comments:</b></div>
-                        <div class="col">${escapeHTML(rec.comment)}</div>
-                    </div>
-                </li>
-            </ul>
-        `;
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        container.innerHTML = renderRecord(record);
-    });
+  // Load notes.json first, then render the record
+  document.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const recordId = urlParams.get('id');
+    loadNotes('notes.json').then(() => {
+      showRecordById(recordId, 'recordContainer');
+    }).catch(err => console.error('Failed to load notes.json', err));
+  });
 </script>

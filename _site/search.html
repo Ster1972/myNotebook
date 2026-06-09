@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="css/main.css">
 <!-- Core Scripts -->
-<script src="notes.js"></script>
 <script src="app.js"></script>
 
   <title>Search Results | myNotes</title>
@@ -144,31 +143,22 @@
     );
   }
 
-  const searchTerm = getSearchTerm();
-  const searchResults = filterNotes(searchTerm);
   const notesPerPage = 12;
   let currentPage = 1;
 
-  function renderResults(paginatedSubset) {
-    return paginatedSubset.map(note => `
-      <tr class="align-middle">
-        <td>${escapeHTML(note.title)}</td>
-        <td>${escapeHTML(note.category)}</td>
-        <td>${note.link ? `<a href="${encodeURI(note.link)}" target="_blank" rel="noopener noreferrer" type="button" class="btn btn-primary btn-small"><i class="bi bi-link-45deg"></i></a>` : ''}</td>
-        <td><a href="viewrecord.html?id=${encodeURIComponent(note.id)}" type="button" class="btn btn-primary btn-small"><i class="bi bi-eye"></i></a></td>
-      </tr>
-    `).join('');
+  // Defer building searchResults until notes.json is loaded
+  function buildAndInitSearch() {
+    const searchTerm = getSearchTerm();
+    const searchResults = filterNotes(searchTerm);
+    initListPage(searchResults, notesPerPage, 'notesBody', 'pagination');
   }
 
-  function updateDisplay(page) {
-    currentPage = page;
-    paginate(searchResults, currentPage, notesPerPage, renderResults, 'notesBody');
-    setupPaginationUI(searchResults.length, notesPerPage, currentPage, 'pagination', updateDisplay);
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    updateDisplay(1);
-  });
+</script>
+<script>
+  // Load notes.json first, then build search results and initialize
+  loadNotes('notes.json').then(() => {
+    buildAndInitSearch();
+  }).catch(err => console.error('Failed to load notes.json', err));
 </script>
       </main>
     </div>
